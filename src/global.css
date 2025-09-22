@@ -13,7 +13,6 @@ html, body, #root {
   height: 100%;
    font-family: "Manrope", sans-serif;
   scroll-behavior: smooth;
-  background: linear-gradient(15deg, #FFFFFF 0%, #e0e4ec 50%, #391DE8 100%) ;
   color: #000000;
 }
 
@@ -47,7 +46,7 @@ a {
 ----------------------- */
 
 .navbar {
-background: 4px;
+background: linear-gradient(270deg, #2458c959 0%, #ffffff 50%, #2e52a1c4 100%) ;
 color: #131212;
 padding: 1rem 2rem;
 position: relative;
@@ -61,7 +60,7 @@ z-index: 10;
   list-style: none;
   display: flex;
   gap: 1.5rem;
-  color: #081531;
+  color: #050d1d;
 }
 
 .nav-links li {
@@ -70,9 +69,8 @@ z-index: 10;
   transition: color 0.3s ease;
 }
 .nav-links li:hover {
-  color: #e2ecfd;
+  color: #0762ff;
 }
-
 
 .logo {
   float: left;
@@ -165,7 +163,7 @@ span {
   top: 0;
   left: 0;
   height: 4px;
-  background: linear-gradient(to right, #3b82f6, #8b5cf6);
+  background: linear-gradient(to right, #000000, #8b5cf6);
   transform-origin: left;
   z-index: 100;
 }
@@ -174,7 +172,7 @@ span {
    Hero Section
 ----------------------- */
 .hero {
-
+  background: linear-gradient(270deg, #2458c959 0%, #ffffff 50%, #2e52a1c4 100%) ;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -201,7 +199,7 @@ span {
 .hero-text{
   position: relative;
   text-align: center;
-  color: #2564ebbe;
+  color: #002B6B;
   display: flex;
   padding: 0 1rem;
   width: 500px;
@@ -214,8 +212,9 @@ span {
   margin: 0 auto;
   margin-top: 1rem;
   padding: 0.75rem 2rem;
-  background-color: #3b82f6;
+  background-color: #0066FF;
   color: #fff;
+  border: 2px solid #ffffff;
   border-radius: 9999px;
   font-weight: bold;
   cursor: pointer;
@@ -225,6 +224,35 @@ span {
 .hero-btn:hover {
   transform: scale(1.05);
   background-color: #2563eb;
+}
+
+.moving-container {
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+  padding-left: 1rem;
+  align-items: center;
+  animation: moveRight 5s infinite alternate, moveLeft 2s infinite alternate;
+}
+
+.hero-image img {
+  width: 300px;
+  height: 300px;
+  padding: .5rem;
+  border-radius: 40px;
+}
+
+@keyframes moveRight {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(200px); }
 }
 
 /* ----------------------
