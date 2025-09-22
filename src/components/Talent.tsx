@@ -8,7 +8,7 @@ interface TalentProps {
     rating: string | number;
 }
 
-const TalentCard: React.FC<TalentProps> = ({ name, picture, course, currentRole, techStack, rating }) => {
+const TalentCard: React.FC<TalentProps> = ({ name, picture, currentRole, techStack, rating }) => {
     return (
         <div className="talent-card">
             <img src={picture} alt={name} className="talent-picture" />
