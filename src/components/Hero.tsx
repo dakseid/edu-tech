@@ -1,8 +1,12 @@
 import { motion } from 'framer-motion';
+import { LuBriefcase } from 'react-icons/lu';
 
 const Hero = () => {
   return (
     <section className="hero">
+        <div className="hero-content">
+            <p><LuBriefcase className="LuBriefcase" /> Your #1 Platform for Showcasing Skills</p>
+            </div>
         <motion.h1
         className="hero-big"
         initial={{opacity: 0, y: 50}}

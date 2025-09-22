@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Courses from "./components/Courses";
+import Talent from "./components/Talent";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import HeroSection from './sections/Herosection';
@@ -10,6 +10,7 @@ import CTASection from "./sections/CTASection";
 import Footer from "./sections/Footer";
 import ScrollProgress from "./components/ScrollProgress";
 import TestimonialsSection from './sections/TestimonialSection';
+import NewsLetter from "./sections/NewsLetter";
 
 
 function App() {
@@ -19,14 +20,15 @@ function App() {
       <Navbar />
        <main className="pt-20">
         <Hero />
+        <Talent />
+        <CoursesSection />
+        <FeaturesSection />
         <About />
         <Contact />
         <HeroSection />
-        <Courses />
-        <FeaturesSection />
-        <CoursesSection />
         <TestimonialsSection />
         <CTASection />
+        <NewsLetter />
         <Footer />
       </main> 
     </div>
