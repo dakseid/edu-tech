@@ -14,9 +14,13 @@ const TalentCard: React.FC<TalentProps> = ({ name, picture, course, currentRole,
             <img src={picture} alt={name} className="talent-picture" />
             <div className="talent-rating"> {rating}/5</div>
             <h3 className="talent-name">{name}</h3>
-            <p className="talent-role"> {currentRole}</p>
-            <p className="talent-tech-stack"> {techStack.join(', ')}</p>
-            <button className="view-profile-btn">View Profile</button>
+            <h6 className="talent-role"> {currentRole}</h6>
+            <div className="talent-tech-stack">
+                {techStack.map((tech, idx) => (
+                    <span className="tech-stack-item" key={idx}>{tech}</span>
+                ))}
+            </div>
+
         </div>
     );
 };
@@ -84,12 +88,13 @@ const TalentsSection: React.FC = () => {
     return (
         <section className="talents-section">
             <h1>Discover the Emerging Masters</h1>
-            <p className="section-subtitle">Find the best master for your company and boosts your business 10x.</p>
+            <h5 className="section-subtitle">Find the best master for your company and boosts your business 10x.</h5>
             <div className="talents-grid">
                 {talents.map((talent, index) => (
                     <TalentCard key={index} {...talent} />
                 ))}
             </div>
+            <button className="talent-contact-btn">View all</button>
         </section>
     );
 };

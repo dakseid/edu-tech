@@ -1,3 +1,4 @@
+
 /* ----------------------
    Global Resets
 ----------------------- */
@@ -337,14 +338,15 @@ span {
 .talent-card {
   background: #ffffff;
   border: 1px solid #e5e7eb;
-  border-radius: 12px;
+  border-radius: 40px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 1.5rem;
   text-align: center;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   width: 400px;
-  margin: 2.25rem;
+  margin: 1rem;
   display: inline-block;
+  border: .1px solid #0066ff59;
 }
 
 .talent-card:hover {
@@ -362,23 +364,33 @@ span {
 
 .talent-card h3 {
   font-size: 1.25rem;
-  margin-bottom: 0.5rem;
-  color: #111827;
+  color: #000000;
 }
 
-.view-profile-btn {
-  background-color: #3b82f6;
-  color: #fff;
-  padding: 0.5rem 1rem;
+.talent-card h6 {
+  font-size: .75rem;
+  margin-bottom: 1rem;
+  color: #000000;
+  font-weight: normal;
+}
+
+.talent-contact-btn {
+  background-color: none;
+  color: #2563eb;
+  padding: 1rem 1rem;
   border: none;
+  margin-top: 2rem;
+  width: 150px;
   border-radius: 9999px;
   font-weight: bold;
+  font-size: large;
   cursor: pointer;
   transition: all 0.2s ease;
 }
 
-.view-profile-btn:hover {
+.talent-contact-btn:hover {
   transform: scale(1.05);
+  color: #ffffff;
   background-color: #2563eb;
 }
 
@@ -391,14 +403,27 @@ span {
 .talents-section h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
-  color: #2f519c;
+  color: #000000;
   font-weight: bold;
+}
+
+.talents-section h5 {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #000308;
+  border-radius: 80px;
+  background: none;
+  font-weight: normal;
 }
 
 .talents-section p {
   font-size: .825rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   color: #000308;
+  border: #f0f4fa .2px solid;
+  border-radius: 40px;
+  padding: .5rem 1rem;
+  background: none;
   font-weight: normal;
 }
 
@@ -407,3 +432,60 @@ span {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.talent-tech-stack {
+  font-size: 0.875rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  font-weight: normal;
+  border-radius: 50px;
+  flex-wrap: nowrap;
+  padding: .25rem .5rem;
+
+}
+
+
+/* ----------------------
+   Talent Tech Stack Item
+----------------------- */
+.tech-stack-item {
+  display: inline-block;
+  background: none;
+  color: #002B6B;
+  border-radius: 8px;
+  padding: 0.3rem 0.8rem;
+  margin: 0.15rem 0.25rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(59,130,246,0.08);
+  border: 1px solid #bcd0ee;
+  transition: background 0.2s, color 0.2s;
+}
+.tech-stack-item:hover {
+  background: #2563eb;
+  color: #fff;
+  border-color: #2563eb;
+}
+
+
+/* -------------------- Responsive -------------------- */
+@media (max-width: 768px) { 
+  .hero-big {
+    font-size: 2.5rem;
+  }
+
+  .hero-text {
+    width: 100%;
+    font-size: 0.875rem;
+  }
+
+  .hero-image img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .talent-card {
+    width: 100%;
+    margin: 1rem 0;
+  }
+} 
