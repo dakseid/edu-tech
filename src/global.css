@@ -235,12 +235,14 @@ span {
 }
 
 .hero-image {
+  padding: 1rem;
+  overflow: hidden;
   display: flex;
   margin-top: 2rem;
   justify-content: center;
   padding-left: 1rem;
   align-items: center;
-  animation: moveRight 5s infinite alternate, moveLeft 2s infinite alternate;
+  animation: moveRight 15s infinite alternate, moveLeft 15s infinite alternate;
 }
 
 .hero-image img {
@@ -251,7 +253,7 @@ span {
 }
 
 @keyframes moveRight {
-  0% { transform: translateX(0); }
+  0% { transform: translateX(-200px); }
   100% { transform: translateX(200px); }
 }
 

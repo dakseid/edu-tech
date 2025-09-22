@@ -45,7 +45,9 @@ const Hero = () => {
             <div>
           <img src="https://i.pinimg.com/736x/eb/d3/f3/ebd3f3f26769de312f82f2c5c623023a.jpg" alt="Hero" />
             </div>
-           
+            <div>
+          <img src="https://i.pinimg.com/736x/89/fc/9b/89fc9b3fd48616f62fd21ab3505b4185.jpg" alt="Hero" />
+            </div>
         </div>
     </div>
     </section>
