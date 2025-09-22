@@ -381,3 +381,29 @@ span {
   transform: scale(1.05);
   background-color: #2563eb;
 }
+
+.talents-section {
+  padding: 4rem 2rem;
+  background: #f9fafb;
+  text-align: center;
+}
+
+.talents-section h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #2f519c;
+  font-weight: bold;
+}
+
+.talents-section p {
+  font-size: .825rem;
+  margin-bottom: 2rem;
+  color: #000308;
+  font-weight: normal;
+}
+
+.talents-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
