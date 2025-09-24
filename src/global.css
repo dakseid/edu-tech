@@ -136,7 +136,8 @@ span {
     right: 0;
     height: calc(100vh - 60px);
     width: 100%;
-    background: linear-gradient(270deg, #2458c959 0%, #ffffff 50%, #2e52a1c4 100%) ;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(20px);
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
@@ -148,6 +149,12 @@ span {
   /* Show when active */
   .nav-links.active {
     transform: translateX(0);
+    color: #0066FF;
+    transition: transform 0.3s ease-in-out;
+    padding: 1rem 2rem;
+    border-radius: 0 0 0 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    height: auto;
   }
 
   /* Show hamburger */
