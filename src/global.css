@@ -300,15 +300,18 @@ span {
 
   .hero-text {
     width: 100%;
-    font-size: 0.875rem;
+    font-size: 0.825rem;
   }
 
   .moving-container {
-    overflow: hidden;
-    width: 100%;
+    overflow-x: auto;
+    width: 100vw;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    scroll-behavior: smooth;
   }
 
   .hero-image img {
@@ -316,6 +319,8 @@ span {
     height: 100px !important;
     object-fit: cover;
     border-radius: 20px;
+    display: inline-block;
+    margin-right: 8px;
   }
 
   html, body, #root {
@@ -339,8 +344,8 @@ span {
 
 
 @keyframes moveRight {
-  0% { transform: translateX(-200px); }
-  100% { transform: translateX(200px); }
+  0% { transform: translateX(-400px); }
+  100% { transform: translateX(400px); }
 }
 
 /* ----------------------
