@@ -204,7 +204,7 @@ span {
   padding:  1rem;
   width: auto;
   margin: auto;
-  font-size: .875rem;
+  font-size: .825rem;
   font-weight: medium;
   padding-bottom: 1rem;
   background-color: white;
@@ -242,7 +242,7 @@ span {
   padding: 0 1rem;
   width: 500px;
   margin: 0 auto;
-  font-size: medium;
+  font-size: .825rem;
 }
 
 .hero-btn {
@@ -266,7 +266,7 @@ span {
 
 .moving-container {
   overflow: hidden;
-
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -284,8 +284,8 @@ span {
 }
 
 .hero-image img {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   padding: .5rem;
   border-radius: 40px;
 }
@@ -422,7 +422,7 @@ span {
 }
 
 .talents-section h5 {
-  font-size: 1rem;
+  font-size: .825rem;
   margin-bottom: 1.5rem;
   color: #000308;
   border-radius: 80px;
@@ -554,7 +554,7 @@ span {
   border-radius: 20px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 600px;
+  max-width: 300px;
   height: auto;
 }
 
