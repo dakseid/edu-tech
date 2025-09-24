@@ -137,7 +137,6 @@ span {
     height: calc(100vh - 60px);
     width: 100%;
     background: linear-gradient(270deg, #2458c959 0%, #ffffff 50%, #2e52a1c4 100%) ;
-    background: white;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
@@ -154,6 +153,12 @@ span {
   /* Show hamburger */
   .menu-toggle {
     display: block;
+  }
+
+  .register-btn {
+    color: blue;
+    border: 2px solid #ffffff; 
+    background: none; 
   }
 }
 
