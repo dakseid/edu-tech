@@ -318,16 +318,15 @@ span {
     flex-wrap: nowrap;
     width: max-content;
     margin: 0 auto;
-    animation: moveRightMobile 15s infinite linear;
+    animation: moveRightMobile 15s infinite linear, moveLeftMobile 15s infinite linear;
   }
 
   .hero-image img {
-    width: 100px !important;
-    height: 100px !important;
+    width: 70px !important;
+    height: 70px !important;
     object-fit: cover;
     border-radius: 20px;
     display: inline-block;
-    margin-right: 8px;
   }
 
   html, body, #root {
