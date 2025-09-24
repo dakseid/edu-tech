@@ -10,12 +10,12 @@ const FeaturedSection: React.FC = () => {
         </p>
 
         {/* Centered Video */}
-        <div className="flex justify-center mb-12">
+        <div className="video-container">
           <video
-            className="rounded-lg shadow-lg w-full max-w-xl"
+            className="my-video"
             controls
           >
-            <source src="/assets/3245638-uhd_3840_2160_25fps.mp4" type="video/mp4" />
+            <source src="/assets/video.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
