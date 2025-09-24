@@ -300,40 +300,22 @@ span {
 
   .hero-text {
     width: 100%;
-    font-size: 0.95rem;
-    padding: 0 0.5rem;
+    font-size: 0.825rem;
   }
 
   .moving-container {
-    overflow-x: auto;
-    width: 100vw;
+    overflow: hidden;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    white-space: nowrap;
-    flex-wrap: nowrap;
-    scroll-behavior: smooth;
-    gap: 0.5rem;
-    padding-bottom: 1rem;
-    -webkit-overflow-scrolling: touch;
   }
 
-  .hero-image {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 0.5rem;
-    width: max-content;
-    margin: 0 auto;
-  }
   .hero-image img {
-    width: 90px !important;
-    height: 90px !important;
+    width: 100px !important;
+    height: 100px !important;
     object-fit: cover;
-    border-radius: 16px;
-    display: inline-block;
-    margin: 0;
-    box-shadow: 0 2px 8px rgba(59,130,246,0.08);
-    background: #fff;
+    border-radius: 20px;
   }
 
   html, body, #root {
@@ -357,8 +339,8 @@ span {
 
 
 @keyframes moveRight {
-  0% { transform: translateX(-400px); }
-  100% { transform: translateX(400px); }
+  0% { transform: translateX(-200px); }
+  100% { transform: translateX(200px); }
 }
 
 /* ----------------------
