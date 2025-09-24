@@ -318,7 +318,7 @@ span {
     flex-wrap: nowrap;
     width: max-content;
     margin: 0 auto;
-    animation: moveRightMobile 15s infinite linear, moveLeftMobile 15s infinite linear;
+    animation: moveLeftMobile 15s infinite linear, moveRightMobile 15s infinite linear;
   }
 
   .hero-image img {
@@ -336,9 +336,21 @@ span {
   }
 
   /* Nav links hidden by default on mobile */
+
+  .navbar {
+    padding: 1rem 1rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    background: linear-gradient(270deg, #2458c959 0%, #2458c963 50%, #2e52a1c4 100%);
+  }
+
   .nav-links {
     transform: translateX(100%) !important;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.9s ease-in-out;
   }
   .nav-links.active {
     transform: translateX(0) !important;
