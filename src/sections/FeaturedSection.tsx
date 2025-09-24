@@ -2,10 +2,10 @@ import React from 'react';
 
 const FeaturedSection: React.FC = () => {
   return (
-    <section className="py-16 bg-gray-50">
-      <div className="container mx-auto text-center">
-        <h2 className="text-3xl font-semibold text-gray-800 mb-8">Why Choose EduTech?</h2>
-        <p className="text-lg text-gray-600 mb-12">
+    <section className="featured-container">
+      <div>
+        <h2>Why Choose EduTech?</h2>
+        <p>
           Unlock your true potential and discover a world of opportunities that align with your skills, interests, and aspirations
         </p>
 
