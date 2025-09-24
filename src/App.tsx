@@ -4,7 +4,7 @@ import Talent from "./components/Talent";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import HeroSection from './sections/Herosection';
-import FeaturesSection from './sections/FeaturedSection'; 
+import FeaturesSection from './sections/FeaturedSection';
 import CoursesSection from "./sections/CoursesSection";
 import CTASection from "./sections/CTASection";
 import Footer from "./sections/Footer";
@@ -18,11 +18,11 @@ function App() {
     <div className="bg-gray-900 min-h-screen scroll-smooth">
       <ScrollProgress />
       <Navbar />
-       <main className="pt-20">
+      <main className="pt-20">
         <Hero />
         <Talent />
-        <CoursesSection />
         <FeaturesSection />
+        <CoursesSection />
         <About />
         <Contact />
         <HeroSection />
@@ -30,9 +30,9 @@ function App() {
         <CTASection />
         <NewsLetter />
         <Footer />
-      </main> 
+      </main>
     </div>
-  
+
   );
 }
 

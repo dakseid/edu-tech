@@ -10,6 +10,7 @@ interface TalentProps {
 
 const TalentCard: React.FC<TalentProps> = ({ name, picture, currentRole, techStack, rating }) => {
     return (
+        <div className="talent-card-container">
         <div className="talent-card">
             <img src={picture} alt={name} className="talent-picture" />
             <div className="talent-rating"> {rating}/5</div>
@@ -21,6 +22,7 @@ const TalentCard: React.FC<TalentProps> = ({ name, picture, currentRole, techSta
                 ))}
             </div>
 
+        </div>
         </div>
     );
 };
