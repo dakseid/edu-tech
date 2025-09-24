@@ -13,15 +13,16 @@ const Navbar: React.FC = () => {
         <li><a href="#courses">Courses</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
+        <button className="register-btn">
+                            Register Now <span>→</span>
+        </button>
       </ul>
 
       {/* Hamburger Icon */}
       <div className="menu-toggle" onClick={() => setIsOpen(!isOpen)}>
         ☰
       </div>
-      <button className="register-btn">
-                            Register Now <span>→</span>
-        </button>
+      
     </nav>
   );
 };
