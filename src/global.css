@@ -132,6 +132,7 @@ span {
   /* Hide desktop links */
   .nav-links {
     position: absolute;
+    overflow: hidden;
     top: 60px;
     right: 0;
     height: calc(100vh - 60px);
@@ -160,6 +161,9 @@ span {
   /* Show hamburger */
   .menu-toggle {
     display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
   }
 
   .register-btn {
@@ -266,7 +270,6 @@ span {
 
 .moving-container {
   overflow: hidden;
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
