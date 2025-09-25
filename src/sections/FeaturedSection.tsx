@@ -28,9 +28,6 @@ const FeaturedSection: React.FC = () => {
           <video className="my-video" controls>
             <source src="/assets/video.mp4" type="video/mp4" />
           </video>
-          <div className="video-captions">
-            <h3>Empower Your Future with EduTech</h3>
-          </div>
         </div>
         <div className="features-col">
           <div className="feature-3">
