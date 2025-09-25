@@ -778,6 +778,40 @@ color: #131212;
   100% { transform: translateX(-200px); }
 }
 
+/* About Section */
 
+.about-reveal {
+  
+  padding: 4rem 2rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 
+.about-icons {
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  display: grid;
+}
 
+.icon-row {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.icon-row2 {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.icon-row3 {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  margin-top: 3rem;
+}
