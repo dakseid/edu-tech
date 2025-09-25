@@ -6,7 +6,7 @@ const FeaturedSection: React.FC = () => {
     <section className="featured-container">
       <div className="featured-text">
         <h2>Why Choose EduTech?</h2>
-        <p>
+        <p className='featured-para'>
           Unlock your true potential and discover a world of opportunities that align with your skills, interests, and aspirations
         </p>
       </div>

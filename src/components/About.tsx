@@ -23,32 +23,32 @@ const About = () => {
 
       <div className="about-icons">
         <div className="icon-row">
-        <FaApple size={50} color="#333" />
-        <FaGoogle size={50} color="#4285F4" />
-        <FaMicrosoft size={50} color="#F25022" />
-        <FaAmazon size={50} color="#FF9900" />
-        <FaTiktok size={50} color="#000000ff" />
-        <FaSkull size={50} color="#000000" />
-        <FaTwitter size={50} color="#1DA1F2" />
-        <FaTwitch size={50} color="#9146FF" />
+        <FaApple className="icon" size={50} color="#333" />
+        <FaGoogle className="icon" size={50} color="#4285F4" />
+        <FaMicrosoft className="icon" size={50} color="#F25022" />
+        <FaAmazon className="icon" size={50} color="#FF9900" />
+        <FaTiktok className="icon" size={50} color="#000000ff" />
+        <FaSkull className="icon" size={50} color="#000000" />
+        <FaTwitter className="icon" size={50} color="#1DA1F2" />
+        <FaTwitch className="icon" size={50} color="#9146FF" />
         </div>
         <div className="icon-row2">
-        <FaDraft2Digital size={50} color="#FF6F61" />
-        <FaStripe size={50} color="#008CDD" />
-        <FaAirbnb size={50} color="#ff0e16ff" />
-        <Fa42Group size={50} color="#000000" />
-        <FaAppStore size={50} color="#0A84FF" />
-        <FaX size={50} color="#000000" />
-        <FaFutbol size={50} color="#000000ff" />
+        <FaDraft2Digital className="icon" size={50} color="#FF6F61" />
+        <FaStripe className="icon" size={50} color="#008CDD" />
+        <FaAirbnb className="icon" size={50} color="#ff0e16ff" />
+        <Fa42Group className="icon" size={50} color="#000000" />
+        <FaAppStore className="icon" size={50} color="#0A84FF" />
+        <FaX className="icon" size={50} color="#000000" />
+        <FaFutbol className="icon" size={50} color="#000000ff" />
         </div>
 
         <div className="icon-row3">
-        <FaAmazon size={50} color="#FF9900" />
-        <FaGoogle size={50} color="#4285F4" />
-        <FaMicrosoft size={50} color="#071ff7ff" />
-        <FaApple size={50} color="#333" />
-        <FaTiktok size={50} color="#000000ff" />
-        <FaSkull size={50} color="#000000" />
+        <FaAmazon className="icon" size={50} color="#FF9900" />
+        <FaGoogle className="icon" size={50} color="#4285F4" />
+        <FaMicrosoft className="icon" size={50} color="#071ff7ff" />
+        <FaApple className="icon" size={50} color="#333" />
+        <FaTiktok className="icon" size={50} color="#000000ff" />
+        <FaSkull className="icon" size={50} color="#000000" />
         </div>
 
 
