@@ -4,7 +4,7 @@ import { FaLaptop } from 'react-icons/fa';
 const FeaturedSection: React.FC = () => {
   return (
     <section className="featured-container">
-      <div>
+      <div className="featured-text">
         <h2>Why Choose EduTech?</h2>
         <p>
           Unlock your true potential and discover a world of opportunities that align with your skills, interests, and aspirations
@@ -33,7 +33,7 @@ const FeaturedSection: React.FC = () => {
           <div className="feature-3">
             <FaLaptop className='laptop-icon' />
             <h3 className='feature3'>Network Opportunities</h3>
-            <p>Connect with top professionals and mentors.</p>
+
           </div>
           <div className="feature-4">
             <span role="img" aria-label="Resume">📄</span>
