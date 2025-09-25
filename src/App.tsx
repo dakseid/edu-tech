@@ -13,6 +13,7 @@ import TestimonialsSection from './sections/TestimonialSection';
 import NewsLetter from "./sections/NewsLetter";
 
 
+
 function App() {
   return (
     <div className="bg-gray-900 min-h-screen scroll-smooth">

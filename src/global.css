@@ -1,3 +1,95 @@
+/* Featured Section Flex Layout */
+.features-video-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.features-col {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: stretch;
+}
+.video-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 320px;
+  max-width: 400px;
+}
+.video-captions {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  color: #2563eb;
+}
+.feature-1, .feature-2, .feature-3, .feature-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.08);
+  padding: 1.5rem 1rem;
+  min-width: 220px;
+  max-width: 260px;
+  margin: 0 auto;
+}
+.feature-1 span, .feature-2 span, .feature-4 span {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+.feature-3 .laptop-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.feature3 {
+  font-size: 1.25rem;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+@media (max-width: 900px) {
+  .features-video-row {
+    gap: 1rem;
+  }
+  .feature-1, .feature-2, .feature-3, .feature-4 {
+    min-width: 160px;
+    max-width: 200px;
+    padding: 1rem 0.5rem;
+  }
+  .video-center {
+    min-width: 220px;
+    max-width: 300px;
+  }
+}
+@media (max-width: 768px) {
+  .features-video-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .features-col {
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+  }
+  .feature-1, .feature-2, .feature-3, .feature-4 {
+    min-width: 120px;
+    max-width: 160px;
+    padding: 0.75rem 0.25rem;
+    font-size: 0.95rem;
+  }
+  .video-center {
+    min-width: 180px;
+    max-width: 220px;
+  }
+}
 /* ----------------------
    Global Resets
 ----------------------- */
@@ -675,7 +767,6 @@ span {
 
 .feature-content h3 {
   font-size: 1.25rem;
-  margin-bottom: 1rem;
   color: #000000;
   font-weight: bold;
   
@@ -683,9 +774,8 @@ span {
 
 .feature-content p {
   font-size: .825rem;
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
   color: #000308;
-  border-radius: 40px;
   background: none;
   font-weight: small;
 }
@@ -714,9 +804,8 @@ span {
 }
 
 .feature-3 {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  position: relative;
+  display: flex;
   margin-bottom: 2rem;
   border-radius: 20px;
   padding: 1rem;
@@ -724,6 +813,22 @@ span {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   width: 250px;
   height: auto;
+}
+
+.laptop-icon {
+  font-size: 4rem;
+  color: #0066FF;
+  margin-right: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature3 {
+  display: flex;
+  text-align: inline;
+  font-size: 1.25rem;
+  color: #000000;
+  font-weight: bold;
 }
 
 .feature-4 {
