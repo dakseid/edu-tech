@@ -8,50 +8,58 @@ const FeaturedSection: React.FC = () => {
         <p>
           Unlock your true potential and discover a world of opportunities that align with your skills, interests, and aspirations
         </p>
+      </div>
 
         {/* Centered Video */}
-        <div className="video-container">
+       
+
+        <div className="feature-content">
+          {/* Feature 1 */}
+          <div className='container-ft'>
+            <div className="feature-1">
+              <h3>Showcase Work</h3>
+              <p>Showcase your project to stand out among all.</p>
+              <button className="featured-btn">
+                Add Work
+              </button>
+            </div>
+        </div>
+
+          {/* Feature 2 */}
+          <div className="feature-2">
+            <h3> 🗺️100K+</h3>
+            <p>Worldwind Active Users</p>
+          </div>
+          </div>
+
+ <div className="video-container">
           <video
             className="my-video"
             controls
           >
             <source src="/assets/video.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
+            <div className="video-captions">
+              <h3>Empower Your Future with EduTech</h3>
+            </div>
           </video>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Feature 1 */}
-          <div className="p-6 bg-white rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold text-gray-700 mb-2">Showcase Work</h3>
-            <p className="text-gray-600">Showcase your project to stand out among all.</p>
-            <button className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-             Add Work
-            </button>
-          </div>
-
-          {/* Feature 2 */}
-          <div className="p-6 bg-white rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold text-gray-700 mb-2">100K+</h3>
-            <p className="text-gray-600">Worldwind Active Users</p>
-          </div>
-
           {/* Feature 3 */}
-          <div className="p-6 bg-white rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold text-gray-700 mb-2">Network Opportunities</h3>
+          <div className="feature-3">
+            <h3>Network Opportunities</h3>
           </div>
 
           {/* Feature 4 */}
-          <div className="p-6 bg-white rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold text-gray-700 mb-2">Resume Builder</h3>
-            <p className="text-gray-600">Create a professional resume using our built-in resume builder.</p>
-            <button className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+          <div className="feature-4">
+            <h3>Resume Builder</h3>
+            <p>Create a professional resume using our built-in resume builder.</p>
+            <button className="featured-btn">
              Build Resume
             </button>
           </div>
-        </div>
+        
 
-      </div>
+     
     </section>
   );
 };
