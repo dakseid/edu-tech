@@ -591,6 +591,14 @@ span {
 } 
 
 /* Featured Section Flex Layout */
+
+.featured-container {
+  padding: 4rem 2rem;
+  background: linear-gradient(270deg, #becce959 0%, #aac3f763 50%, #aec4f393 100%) ;
+color: #131212;
+  text-align: center;
+}
+
 .features-video-row {
   display: flex;
   align-items: center;
