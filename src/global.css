@@ -200,7 +200,8 @@ span {
    Hero Section
 ----------------------- */
 .hero {
-  background: linear-gradient(270deg, #2458c959 0%, #2458c962 50%, #2e52a1c4 100%) ;
+  background: linear-gradient(270deg, #becce959 0%, #aac3f763 50%, #aec4f393 100%) ;
+color: #131212;
   display: flex;
   flex-direction: column;
   align-items: center;

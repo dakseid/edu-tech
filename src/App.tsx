@@ -23,8 +23,8 @@ function App() {
         <Hero />
         <Talent />
         <FeaturesSection />
-        <CoursesSection />
         <About />
+        <CoursesSection />
         <Contact />
         <HeroSection />
         <TestimonialsSection />

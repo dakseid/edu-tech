@@ -1,24 +1,67 @@
-
 import { motion } from "framer-motion";
+import { FaAirbnb, FaAmazon, FaApple, FaAppStore, FaBehance, FaDraft2Digital, FaFutbol, FaGoogle, FaMicrosoft, FaSkull, FaStripe, FaTiktok, FaTwitch, FaTwitter } from "react-icons/fa";
+import { Fa42Group, FaX } from "react-icons/fa6";
+
 
 const About = () => {
-    return (
-        <motion.section
-        id="about"
-        className="py-20 bg-gray-900 text-white text-center"
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: true }}
-        transition={{ duration: 1 }}
-        >
-            <h2 className="text-4xl font-bold mb-6">About EduTech</h2>
-            <p className="max-w-2xl mx-auto text-lg">
-                EduTech is a leading online education platform dedicated to providing high-quality courses in technology and related fields.
-                 Our mission is to empower individuals with the skills they need to succeed in the digital age.
-                 Whether you're a beginner looking to learn the basics or a professional aiming to advance your career, EduTech has something for everyone.
-            </p>
-        </motion.section>
-    );
+  return (
+    <motion.section
+      id="about"
+      className="about-reveal"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}
+      transition={{ duration: 1 }}
+    >
+      <h2 className="about-title">
+        We are happy to work with incredible clients
+      </h2>
+      <p className="about-description">
+        Fortune 500 companies and renowned global brands place their trust in
+        our products, solutions and bespoke software development services.
+      </p>
+
+      <div className="about-icons" style={{ display: "flex", gap: "2rem", justifyContent: "center", marginTop: "2rem" }}>
+        <div className="icon-row">
+        <FaApple size={40} color="#333" />
+        <FaGoogle size={40} color="#4285F4" />
+        <FaMicrosoft size={40} color="#F25022" />
+        <FaAmazon size={40} color="#FF9900" />
+        <FaTiktok size={40} color="#E82127" />
+        <FaSkull size={40} color="#000000" />
+        <FaTwitter size={40} color="#1DA1F2" />
+        <FaTwitch size={40} color="#9146FF" />
+        </div>
+        <div className="icon-row2">
+        <FaDraft2Digital size={40} color="#FF6F61" />
+        <FaStripe size={40} color="#008CDD" />
+        <FaAirbnb size={40} color="#FF5A5F" />
+        <Fa42Group size={40} color="#000000" />
+        <FaAppStore size={40} color="#0A84FF" />
+        <FaX size={40} color="#000000" />
+        <FaFutbol size={40} color="#FF4500" />
+        <FaBehance size={40} color="#1769FF" />
+        </div>
+
+        <div className="icon-row3">
+        <FaAmazon size={40} color="#FF9900" />
+        <FaGoogle size={40} color="#4285F4" />
+        <FaMicrosoft size={40} color="#F25022" />
+        <FaApple size={40} color="#333" />
+        <FaTiktok size={40} color="#E82127" />
+        <FaSkull size={40} color="#000000" />
+        <FaTwitter size={40} color="#1DA1F2" />
+        <FaTwitch size={40} color="#9146FF" />
+        </div>
+
+
+
+      </div>
+
+    </motion.section>
+
+
+  );
 };
 
 export default About;
