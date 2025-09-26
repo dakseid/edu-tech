@@ -5,6 +5,7 @@ import { Fa42Group, FaX } from "react-icons/fa6";
 
 const About = () => {
   return (
+    <section className="about-section">
     <motion.section
       id="about"
       className="about-reveal"
@@ -56,7 +57,7 @@ const About = () => {
       </div>
 
     </motion.section>
-
+    </section>
 
   );
 };
