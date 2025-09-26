@@ -5,7 +5,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import HeroSection from './sections/Herosection';
 import FeaturesSection from './sections/FeaturedSection';
-import CoursesSection from "./sections/CoursesSection";
+import HowItWorks from "./sections/HowItWorks";
 import CTASection from "./sections/CTASection";
 import Footer from "./sections/Footer";
 import ScrollProgress from "./components/ScrollProgress";
@@ -24,7 +24,7 @@ function App() {
         <Talent />
         <FeaturesSection />
         <About />
-        <CoursesSection />
+        <HowItWorks />
         <Contact />
         <HeroSection />
         <TestimonialsSection />

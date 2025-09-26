@@ -866,6 +866,7 @@ color: #131212;
  
 }
 .about-title {
+  font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: .5rem;
   color: #000000;
@@ -943,4 +944,113 @@ color: #131212;
     gap: 2rem;
     flex-wrap: wrap;
   }
+}
+
+/* ------ How it works Section ------ */
+
+.how-it-works-section {
+  padding: 2rem 2rem;
+  background: linear-gradient(270deg, #becce959 0%, #aac3f763 50%, #aec4f393 100%) ;
+}
+
+.how-it-works-title {
+  font-weight: bold;
+  margin-bottom: .5rem;
+  color: #000000;
+}
+
+.how-it-works-section h1 {
+  font-size: 2.5rem;
+  color: #000;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.underline {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+}
+
+.step-number {
+  font-size: 4rem;
+  font-weight: bolder;
+  color: #5e5f63;
+  margin-bottom: 0.5rem;
+}
+
+.step-content {
+  display: flex;
+  flex-direction: row;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 6px 6px rgba(0,0,0,0.08);
+  padding: 1rem 1rem;
+  min-width: 450px;
+  max-width: 500px;
+  margin: 1rem auto;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.step-content:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.step-icon {
+  color: #0066FF;
+  margin-bottom: 0.5rem;
+  width: 80px;
+  height: 80px;
+  background: #d9dce0;
+  padding: .5rem;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-title {
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: bold;
+}
+
+.step-text {
+  font-size: .825rem;
+  color: #000;
+  font-weight: normal;
+  text-align: left;
+  margin-left: 1rem;
+  margin-top: 1rem;
+
+}
+
+.step-image-1 {
+  width: 200px;
+  height: 350px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.step-image-2 {
+  width: 300px;
+  height: 500px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.image-container {
+  display: flex;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+
+.steps-container {
+ display: flex;
+  flex-direction: row;
+  gap: 10rem;
 }
