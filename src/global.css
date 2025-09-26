@@ -1113,7 +1113,6 @@ color: #131212;
   align-items: center;
   justify-content: center;
 }
-
 .step-title {
   font-size: .825rem;
   color: #000;
@@ -1143,7 +1142,6 @@ color: #131212;
   border-radius: 20px;
   object-fit: cover;
 }
-
 .image-container {
   display: flex;
   margin-top: 2rem;
