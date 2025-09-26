@@ -20,7 +20,7 @@ const HowItWorks: React.FC = () => {
         <div className="underline">
         <div className="step-number"><h2>01</h2></div>
         <div className="step-content">
-          <span className="step-icon"><FiLogIn size={42} color="#5885e6ff" /></span>
+          <span className="step-icon"><FiLogIn/></span>
           <div className="step-text">
         <h3 className="step-title">Sign Up and create Account</h3>
         <p>Fill out your details and showcase your skills.</p>
@@ -31,7 +31,7 @@ const HowItWorks: React.FC = () => {
         <div className="underline">
         
         <div className="step-content">
-          <span className="step-icon"><FiUpload size={42} color="#5885e6ff" /></span>
+          <span className="step-icon"><FiUpload/></span>
           <div className="step-text">
         <h3 className="step-title">Upload Your Portfolio</h3>
         <p>Add your resume, videos, and more.</p>
@@ -43,7 +43,7 @@ const HowItWorks: React.FC = () => {
         <div className="underline">
         <div className="step-number"><h2>03</h2></div>
         <div className="step-content">
-          <span className="step-icon"><FiSearch size={42} color="#5885e6ff" /></span>
+          <span className="step-icon"><FiSearch/></span>
           <div className="step-text">
         <h3 className="step-title">Get Discovered</h3>
         <p>Let employers find and contact you.</p>
